@@ -11,6 +11,7 @@
 	include 'StylisticFunctions.php';
 
 	printHeader();
+	<a href="severity.php">Go Back</a>
 
 	$severity = "";
 	if ($_SESSION["severity"] == "1"){
@@ -28,7 +29,7 @@
 
 	printFooter();
 
-	//ensure that email is an appropriate length, and is properly formatted
+	//ensure that the severity is valid
 	function validateSeverity($severity){
   		if ($severity == "1" || $severity == "2" || $severity == "3"){
   			$_SESSION["severity"] = $severity;
