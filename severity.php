@@ -13,7 +13,7 @@
 	include 'StylisticFunctions.php';
 
 	printHeader();
-	<a href="contact.php">Go Back</a>
+	echo "<a href=\"contact.php\">Go Back</a>";
 	
 	echo "<p>At this stage, please specify the threat level.</p>";
 	

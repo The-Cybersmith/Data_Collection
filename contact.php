@@ -15,7 +15,7 @@
 	include 'StylisticFunctions.php';
 
 	printHeader();
-	<a href="home.php">Go Back</a>
+	echo "<a href=\"home.php\">Go Back</a>";
 	
 	echo "<p>At this stage, please enter your email address. It must be a valid email, and no more than 100 characters long.</p>";
 	

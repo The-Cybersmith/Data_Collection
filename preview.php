@@ -11,7 +11,7 @@
 	include 'StylisticFunctions.php';
 
 	printHeader();
-	<a href="severity.php">Go Back</a>
+	echo "<a href=\"severity.php\">Go Back</a>";
 
 	$severity = "";
 	if ($_SESSION["severity"] == "1"){
@@ -26,6 +26,8 @@
 	echo ("Name: ".$_SESSION["name"]."<br>");
 	echo ("Email: ".$_SESSION["email"]."<br>");
 	echo ("Severity: ".$severity."<br>");
+
+	echo "<b><h3><a href=\"Display.php\">SUBMIT</a></h3></b>";
 
 	printFooter();
 
